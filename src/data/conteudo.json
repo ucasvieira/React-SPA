@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nome": "Produto A",
+      "categoria": "Eletrónicos",
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "nome": "Produto B",
+      "categoria": "Livros",
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "nome": "Produto C",
+      "categoria": "Escritório",
+      "stock": 5
+    },
+    {
+      "id": 4,
+      "nome": "Produto C",
+      "categoria": "Carro",
+      "stock": 20
+    }
+  ]
