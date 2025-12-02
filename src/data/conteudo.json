@@ -31,16 +31,6 @@
       "available": false
     },
     {
-      "id": "4",
-      "title": "Guerras Galácticas",
-      "category": "Ficção Científica",
-      "year": 1977,
-      "description": "Luke Skywalker une forças com um Cavaleiro Jedi, um piloto arrogante, um Wookiee e dois droides para salvar a galáxia do Império.",
-      "imageUrl": "https://picsum.photos/300/450?random=4",
-      "rating": 4.9,
-      "available": true
-    },
-    {
       "id": "5",
       "title": "The Substance",
       "category": "Terror",
@@ -72,7 +62,7 @@
     },
     {
       "id": "8",
-      "title": "Corredor Veloz",
+      "title": "Speed Racer",
       "category": "Ação",
       "year": 2005,
       "description": "Um jovem piloto aspira ser campeão do mundo das corridas com a ajuda de sua família e seu automóvel Mach 5 de alta tecnologia.",
