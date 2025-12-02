@@ -30,6 +30,16 @@
       "rating": 4.4,
       "available": false
     },
+     {
+      "id": "4",
+      "title": "Guerras Galácticas",
+      "category": "Ficção Científica",
+      "year": 1977,
+      "description": "Luke Skywalker une forças com um Cavaleiro Jedi, um piloto arrogante, um Wookiee e dois droides para salvar a galáxia do Império.",
+      "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F48%2Fa9%2F7f%2F48a97f9f1f795c872bb0568b201631f2.jpg&f=1&nofb=1&ipt=f2ef4f08814272ccb71a08d6af963140a139abedfebcdfc97bed53cd8c6b15b1",
+      "rating": 4.9,
+      "available": true
+    },
     {
       "id": "5",
       "title": "The Substance",
