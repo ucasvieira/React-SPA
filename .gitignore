@@ -1,0 +1,67 @@
+# Node (dependências e logs)
+node_modules/
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+
+# Saída de build (Vite)
+/dist
+/.vite
+.build
+
+# Arquivos de ambiente locais
+.env
+.env.local
+.env.*.local
+
+# Cache local
+/.cache
+/.parcel-cache
+/.sass-cache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Pastas e arquivos de editores/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Relatórios de coverage
+coverage/
+
+# Diversos
+*.tgz
+*.local
+*.pem
+.eslintcache
+.history/
+
+# Builds / frameworks específicos
+/build
+/.next
+/.nuxt
+/out
+
+# Assets estáticos gerados (opcional)
+/public/favicon.ico
+
+# Arquivos gerados pelo SO
+ehthumbs.db
+Icon\r
+
+# Opcional: mantenha os lockfiles no repositório para instalações determinísticas
+# package-lock.json
+# yarn.lock

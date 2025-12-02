@@ -1,13 +1,42 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>meu-projeto</title>
-  </head>
-  <body>
+    <title>Aluga Aí!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#134686', // Deep Blue
+              primaryHover: '#0d3262',
+              secondary: '#FDF4E3', // Cream (Background)
+              accent: '#F87B1B', // New Orange (was Red)
+              accentHover: '#D66613', // Darker Orange
+              highlight: '#FEB21A', // Yellow
+              surface: '#ffffff', // White
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-secondary text-primary font-sans antialiased">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>

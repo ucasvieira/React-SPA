@@ -1,26 +1,115 @@
-[
+{
+  "movies": [
     {
-      "id": 1,
-      "nome": "Produto A",
-      "categoria": "Eletrónicos",
-      "stock": 10
+      "id": "1",
+      "title": "Blade Runner 2049",
+      "category": "Ficção Científica",
+      "year": 2017,
+      "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what’s left of society into chaos. K’s discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+      "imageUrl": "https://a.ltrbxd.com/resized/film-poster/2/6/5/4/3/9/265439-blade-runner-2049-0-1000-0-1500-crop.jpg?v=86735e0bb8",
+      "rating": 4.1,
+      "available": true
     },
     {
-      "id": 2,
-      "nome": "Produto B",
-      "categoria": "Livros",
-      "stock": 50
+      "id": "2",
+      "title": "Chainsaw Man – The Movie: Reze Arc",
+      "category": "Ação",
+      "year": 2025,
+      "description": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji’s world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+      "imageUrl": "https://a.ltrbxd.com/resized/film-poster/1/1/0/2/6/7/3/1102673-chainsaw-man-the-movie-reze-arc-0-1000-0-1500-crop.jpg?v=d9227a11bd",
+      "rating": 4.4,
+      "available": true
     },
     {
-      "id": 3,
-      "nome": "Produto C",
-      "categoria": "Escritório",
-      "stock": 5
+      "id": "3",
+      "title": "In The Mood For Love",
+      "category": "Romance",
+      "year": 2000,
+      "description": "In 1962 Hong Kong, neighbors Su Li-zhen (Mrs. Chan) and Chow Mo-wan (Mr. Chow) discover their spouses are having an affair. As they spend time together, they develop feelings for each other, but their relationship remains chaste and unspoken, reflecting societal constraints and their own moral compass.",
+      "imageUrl": "https://a.ltrbxd.com/resized/sm/upload/g1/7l/2j/qk/tSRdvZY1waXrTeMqeLBmq9IRs08-0-1000-0-1500-crop.jpg?v=938633fc19",
+      "rating": 4.4,
+      "available": false
     },
     {
-      "id": 4,
-      "nome": "Produto C",
-      "categoria": "Carro",
-      "stock": 20
+      "id": "4",
+      "title": "Guerras Galácticas",
+      "category": "Ficção Científica",
+      "year": 1977,
+      "description": "Luke Skywalker une forças com um Cavaleiro Jedi, um piloto arrogante, um Wookiee e dois droides para salvar a galáxia do Império.",
+      "imageUrl": "https://picsum.photos/300/450?random=4",
+      "rating": 4.9,
+      "available": true
+    },
+    {
+      "id": "5",
+      "title": "The Substance",
+      "category": "Terror",
+      "year": 2024,
+      "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+      "imageUrl": "https://a.ltrbxd.com/resized/film-poster/8/3/8/1/4/0/838140-the-substance-0-1000-0-1500-crop.jpg?v=ab9e1072f8",
+      "rating": 3.8,
+      "available": true
+    },
+    {
+      "id": "6",
+      "title": "Parasite",
+      "category": "Comédia",
+      "year": 2019,
+      "description": "All unemployed, Ki-taek’s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+      "imageUrl": "https://a.ltrbxd.com/resized/film-poster/4/2/6/4/0/6/426406-parasite-0-1000-0-1500-crop.jpg?v=8f5653f710",
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": "7",
+      "title": "The Godfather",
+      "category": "Drama",
+      "year": 1972,
+      "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+      "imageUrl": "https://a.ltrbxd.com/resized/film-poster/5/1/8/1/8/51818-the-godfather-0-1000-0-1500-crop.jpg?v=bca8b67402",
+      "rating": 4.5,
+      "available": false
+    },
+    {
+      "id": "8",
+      "title": "Corredor Veloz",
+      "category": "Ação",
+      "year": 2005,
+      "description": "Um jovem piloto aspira ser campeão do mundo das corridas com a ajuda de sua família e seu automóvel Mach 5 de alta tecnologia.",
+      "imageUrl": "https://picsum.photos/300/450?random=8",
+      "rating": 3.5,
+      "available": true
+    }
+  ],
+  "initialRentals": [
+    {
+      "id": "101",
+      "customerName": "Isaque Santana",
+      "movieTitle": "Blade Runner 2049",
+      "rentDate": "2025-11-25",
+      "returnDate": "2025-12-10",
+      "status": "Ativo"
+    },
+    {
+      "id": "102",
+      "customerName": "Kaya Sugimoto",
+      "movieTitle": "Chainsaw Man – The Movie: Reze Arc",
+      "rentDate": "2025-11-01",
+      "returnDate": "2025-11-23",
+      "status": "Atrasado"
     }
   ]
+  ,
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "username": "jose",
+      "password": "usuario123",
+      "role": "user"
+    }
+  ]
+}
