@@ -28,8 +28,7 @@ const Navbar = () => {
               <div className="ml-10 flex items-baseline space-x-6">
                 <Link to="/" className={`px-3 py-2 text-base uppercase tracking-wide transition-all ${isActive('/')}`}>Início</Link>
                 <Link to="/catalog" className={`px-3 py-2 text-base uppercase tracking-wide transition-all ${isActive('/catalog')}`}>Catálogo</Link>
-                <Link to="/rentals" className={`px-3 py-2 text-base uppercase tracking-wide transition-all ${isActive('/rentals')}`}>Gestão</Link>
-                {isAdmin && <Link to="/users" className={`px-3 py-2 text-base uppercase tracking-wide transition-all ${isActive('/users')}`}>Usuários</Link>}
+                {isAdmin && <Link to="/rentals" className={`px-3 py-2 text-base uppercase tracking-wide transition-all ${isActive('/rentals')}`}>Gestão</Link>}
               </div>
             </div>
           </div>
@@ -79,7 +78,7 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="text-secondary hover:text-white block px-3 py-2 rounded-md text-base font-medium">Início</Link>
             <Link to="/catalog" onClick={() => setIsMobileMenuOpen(false)} className="text-secondary hover:text-white block px-3 py-2 rounded-md text-base font-medium">Catálogo</Link>
-            <Link to="/rentals" onClick={() => setIsMobileMenuOpen(false)} className="text-secondary hover:text-white block px-3 py-2 rounded-md text-base font-medium">Gestão</Link>
+              {isAdmin && <Link to="/rentals" onClick={() => setIsMobileMenuOpen(false)} className="text-secondary hover:text-white block px-3 py-2 rounded-md text-base font-medium">Gestão</Link>}
             {user ? (
               <>
                 {isAdmin && <>
