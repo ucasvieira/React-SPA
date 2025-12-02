@@ -144,7 +144,7 @@ const MovieDetails = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
           <div className="bg-white rounded-lg p-8 max-w-sm w-full text-center">
             <h3 className="text-xl font-black text-primary mb-4">Filme alugado com sucesso</h3>
-            <p className="text-gray-600 mb-6">A sua locação foi registrada. Você pode visualizar na página de Gestão quando um administrador estiver acessando, ou aguardar confirmação.</p>
+            <p className="text-gray-600 mb-6">A sua locação foi registrada.</p>
             <div className="flex justify-center">
               <button onClick={() => setShowSuccess(false)} className="bg-accent text-white px-6 py-2 rounded-lg font-bold">Fechar</button>
             </div>
